@@ -1,0 +1,50 @@
+# =========================
+# Spring Boot / Java
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# =========================
+# Application secrets
+# =========================
+src/main/resources/application.properties
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE
+# =========================
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Maven
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Node / React (if used)
+# =========================
+node_modules/
+dist/
+build/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
